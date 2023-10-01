@@ -19,7 +19,7 @@ import java.util.Arrays;
 public class Traintest {
     public static void main(String[] args) throws Exception {
         // Load your dataset
-        DataSource source = new DataSource("C:\\Users\\hella\\Desktop\\ALL\\results\\camel_result.arff"); // Replace with your dataset path
+        DataSource source = new DataSource("C:\\Users\\hella\\Desktop\\ALL\\results\\maven_result.arff"); // Replace with your dataset path
         Instances data = source.getDataSet();
         if (data.classIndex() == -1) {
             data.setClassIndex(data.numAttributes() - 1);
